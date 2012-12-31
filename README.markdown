@@ -6,6 +6,13 @@ to give up the simple authentication flow provided by OmniAuth. Identity
 is designed on purpose to be as featureless as possible: it provides the
 basic construct for user management and then gets out of the way.
 
+This fork allows this gem to be confirmable, recoverable, rememerable, and trackable
+Some of this code I picked up from a previous fork of this gem and I can't find that fork anymore.
+I'll try to add some instructions for these features eventually.
+
+These features are written with the expectation that a user model exists with a full_name method.
+
+
 ## Usage
 
 This can be a bit hard to understand the first time. Luckily, Ryan Bates made
